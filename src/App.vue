@@ -1,7 +1,7 @@
 <script setup>
 const menus = [
   {
-    name: "长列表优化",
+    name: "长列表",
     to: "/",
   },
   {

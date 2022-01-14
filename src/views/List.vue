@@ -2,7 +2,7 @@
 import { ref, onMounted } from "vue";
 const myRef = ref(null);
 // 元数据
-const dataSource = Array.from({ length: 100 }, (v, i) => i);
+const dataSource = Array.from({ length: 1000 }, (v, i) => i);
 const itemHeight = 60;
 const list = ref([]);
 const pageView = () => {
